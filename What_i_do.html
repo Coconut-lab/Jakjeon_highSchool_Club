@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>작전고등학교 와이파이</title>
+    <script src="https://kit.fontawesome.com/d80feeff6c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="media.css">
+    <style>
+        *{
+            padding: 0;
+            box-sizing: border-box;
+        }
+        a, a:link, a:visited{
+            color: inherit;
+            text-decoration: none;
+        }
+        li{
+            list-style: none;
+        }
+        section .container .title h4{
+            color: #ff6a6a;
+        }
+        section .do-me::after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+        section .do-me .do-inner{
+            background-color: #fff;
+            width: 30%;
+            padding: 2rem;
+            float: left;
+            margin-right: 5%;
+            cursor: pointer;
+        }
+        section .do-me .do-inner:last-child{
+            margin-right: 0;
+        }
+        section .do-me .do-inner .icon i{
+            font-size: 2.5rem;
+            color: #ff6a6a;
+        }
+        section .do-me .do-inner .content h3{
+            font-size: 2rem;
+            margin: 1rem 0;
+        }
+        section .do-me .do-inner .content p{
+            font-size: 1.15rem;
+        }
+        section .do-me .do-inner:hover{
+            background-color: lightcoral;
+            color: white;
+        }
+        section .do-me .do-inner:hover i{
+            color: white;
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+    </style>
+</head>
+
+<body>
+    <section id="features" class="do">
+        <div class="container">
+            <div class="title">
+                <h4>Features</h4>
+                <h2>우리가 배우는 언어들</h2>
+            </div>
+            <div class="do-me">
+                <div class="do-inner">
+                    <div class="icon">
+                        <i class="fa-brands fa-html5"></i>
+                    </div>
+                    <div class="content">
+                        <h3>HTML5</h3>
+                        <p>웹 사이트의 뼈대</p>
+                    </div>
+                </div>
+                <div class="do-inner">
+                    <div class="icon">
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </div>
+                    <div class="content">
+                        <h3>CSS3</h3>
+                        <p>웹 사이트의 화장품</p>
+                    </div>
+                </div>
+                <div class="do-inner">
+                    <div class="icon">
+                        <i class="fa-brands fa-js"></i>
+                    </div>
+                    <div class="content">
+                        <h3>JavaScript</h3>
+                        <p>웹 사이트에 생동감 추가</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="features" class="do">
+        <div class="container">
+            <div class="title">
+                <h4>Future</h4>
+                <h2>우리가 배울 언어들</h2>
+            </div>
+            <div class="do-me">
+                <div class="do-inner">
+                    <div class="icon">
+                        <i class="fa-brands fa-golang"></i>
+                    </div>
+                    <div class="content">
+                        <h3>Go</h3>
+                        <p>구글이 개발한 최적화된 언어</p>
+                    </div>
+                </div>
+                <div class="do-inner">
+                    <div class="icon">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+                    <div class="content">
+                        <h3>MySQL</h3>
+                        <p>데이터 처리에 특화된 언어</p>
+                    </div>
+                </div>
+                <div class="do-inner">
+                    <div class="icon">
+                        <i class="fa-brands fa-php"></i>
+                    </div>
+                    <div class="content">
+                        <h3>Php</h3>
+                        <p>수많은 웹 시스템의 기반이 되는 언어</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+    
+</html>
